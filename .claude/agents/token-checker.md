@@ -28,6 +28,7 @@ model: inherit
 ### 3단계: Plan (비교 준비)
 
 Figma 변수명을 CSS 변수명으로 정규화:
+
 - `/` → `-` 변환 (예: color/bg/primary → --color-bg-primary)
 - 대소문자 통일 (kebab-case)
 - 색상: Figma RGBA → hex로 변환 후 비교
@@ -39,6 +40,7 @@ Figma 변수명을 CSS 변수명으로 정규화:
 ### 4단계: Generate (비교 실행)
 
 3개 카테고리로 분류:
+
 - 🆕 Figma에만 있는 변수 → 코드에 추가 필요. CSS 코드 제안
 - 🗑️ 코드에만 있는 토큰 → Figma에서 삭제된 것일 수 있음
 - ⚠️ 값이 다른 토큰 → 양쪽 값을 나란히 보여줌
@@ -62,6 +64,7 @@ Figma 변수명을 CSS 변수명으로 정규화:
 승인이 없으면 6단계를 건너뛰고 5단계 보고에서 종료합니다.
 
 ## 중요
+
 - **Figma가 source of truth**. 불일치 시 `tokens/*.json`을 Figma에 맞추는 방향으로 수정.
 - 기본은 보고. **자동 수정은 사용자 승인이 있을 때만** 수행.
 - `src/tokens/_generated.css`와 `flutter_output/*.dart`는 직접 수정하지 말 것.

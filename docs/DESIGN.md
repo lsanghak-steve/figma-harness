@@ -99,15 +99,18 @@ btn/primary-sm-default
 ```
 
 컴포넌트 약어:
+
 - btn (Button), inp (Input), card (Card), badge (Badge)
 - radio (Radio), search (Searchbar), modal (Modal)
 - toast (Toast), tab (Tab), table (Table)
 
 구분자:
+
 - `/` 는 컴포넌트와 속성 경계
 - `-` 는 속성 간 구분
 
 예시:
+
 - `btn/primary-lg-default` — Primary 대형 버튼 기본 상태
 - `btn/ghost-sm-hover` — Ghost 소형 버튼 hover 상태
 - `inp/outline-md-focus` — Outline Input 중형 focus 상태

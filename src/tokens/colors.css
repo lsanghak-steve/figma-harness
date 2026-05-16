@@ -1,19 +1,42 @@
 :root {
+  /* ── Primitives ── */
   --primitive-white: #ffffff;
-  --primitive-gray-50: #f9fafb;
-  --primitive-gray-200: #e5e7eb;
-  --primitive-gray-500: #6b7280;
-  --primitive-gray-900: #111827;
-  --primitive-blue-500: #3b82f6;
-  --primitive-green-500: #22c55e;
-  --primitive-red-500: #ef4444;
+  --primitive-black: #000000;
+  --primitive-gray-100: #f4f4f4;
+  --primitive-gray-200: #c6c6c6;
+  --primitive-gray-400: #939393;
+  --primitive-gray-600: #5d5d5d;
+  --primitive-gray-900: #474747;
+  --primitive-brand-600: #ff4800;
 
-  --color-bg-primary: var(--primitive-white);
-  --color-bg-secondary: var(--primitive-gray-50);
-  --color-text-primary: var(--primitive-gray-900);
-  --color-text-secondary: var(--primitive-gray-500);
-  --color-border-default: var(--primitive-gray-200);
-  --color-brand-primary: var(--primitive-blue-500);
-  --color-status-success: var(--primitive-green-500);
-  --color-status-error: var(--primitive-red-500);
+  /* gray-600 semi-transparent variants */
+  --primitive-gray-600-a64: #5d5d5da3; /* 64% opacity */
+  --primitive-gray-600-a08: #5d5d5d14; /*  8% opacity */
+  --primitive-gray-600-a16: #5d5d5d29; /* 16% opacity */
+
+  /* ── Text ── */
+  --color-text-primary: var(--primitive-black);
+  --color-text-secondary: var(--primitive-gray-900);
+  --color-text-tertiary: var(--primitive-gray-600-a64);
+  --color-text-disabled: var(--primitive-gray-200);
+  --color-text-on-dark: var(--primitive-white);
+  --color-text-brand: var(--primitive-brand-600);
+
+  /* ── Background ── */
+  --color-bg-base: var(--primitive-white);
+  --color-bg-surface: var(--primitive-gray-100);
+  --color-bg-tag: var(--primitive-gray-600-a08);
+
+  /* ── Border & Divider ── */
+  --color-border-default: var(--primitive-gray-100);
+  --color-divider-default: var(--primitive-gray-600-a16);
+
+  /* ── Icon ── */
+  --color-icon-primary: var(--primitive-black);
+  --color-icon-secondary: var(--primitive-gray-600);
+  --color-icon-disabled: var(--primitive-gray-400);
+
+  /* ── Brand & Status ── */
+  --color-brand-primary: var(--primitive-brand-600);
+  --color-status-sale: var(--primitive-brand-600);
 }

@@ -1,23 +1,84 @@
 :root {
-  --spacing-xs: 4px;
-  --spacing-sm: 8px;
-  --spacing-md: 12px;
-  --spacing-lg: 16px;
-  --spacing-xl: 24px;
-  --spacing-2xl: 32px;
+  /* ── Spacing (numeric scale) ── */
+  --spacing-1: 2px;
+  --spacing-2: 4px;
+  --spacing-3: 6px;
+  --spacing-4: 8px;
+  --spacing-5: 10px;
+  --spacing-6: 12px;
+  --spacing-7: 14px;
+  --spacing-8: 20px;
 
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
+  /* ── Spacing (component) ── */
+  --spacing-component-xs: 2px;
+  --spacing-component-sm: 4px;
+  --spacing-component-md: 8px;
+  --spacing-component-lg: 12px;
+  --spacing-component-xl: 20px;
+
+  /* ── Spacing (layout) ── */
+  --spacing-layout-sm: 14px;
+  --spacing-layout-md: 20px;
+
+  /* ── Radius ── */
+  --radius-xs: 2px;
+  --radius-sm: 3px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
   --radius-full: 9999px;
 
-  --font-family-sans: 'Inter', sans-serif;
-  --text-sm: 0.875rem;
-  --text-base: 1rem;
-  --text-lg: 1.125rem;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
+  /* ── Typography ── */
+  --font-family-sans: 'Pretendard Variable', sans-serif;
 
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  /* heading */
+  --font-size-heading-md: 18px;
+  --font-weight-heading-md: 700;
+  --line-height-heading-md: 1;
+
+  /* label */
+  --font-size-label-md: 14px;
+  --font-weight-label-md: 500;
+  --line-height-label-md: 1;
+
+  --font-size-label-md-bold: 14px;
+  --font-weight-label-md-bold: 700;
+  --line-height-label-md-bold: 1;
+
+  --font-size-label-sm: 13px;
+  --font-weight-label-sm: 500;
+  --line-height-label-sm: 1;
+
+  --font-size-label-xs: 12px;
+  --font-weight-label-xs: 500;
+  --line-height-label-xs: 1;
+
+  --font-size-label-xs-bold: 12px;
+  --font-weight-label-xs-bold: 700;
+  --line-height-label-xs-bold: 16px;
+
+  --font-size-label-xs-bold-100: 12px;
+  --font-weight-label-xs-bold-100: 700;
+  --line-height-label-xs-bold-100: 1;
+
+  /* body */
+  --font-size-body-sm: 13px;
+  --font-weight-body-sm: 500;
+  --line-height-body-sm: 18px;
+
+  --font-size-body-xs: 12px;
+  --font-weight-body-xs: 400;
+  --line-height-body-xs: 16px;
+
+  /* caption */
+  --font-size-caption-sm: 10px;
+  --font-weight-caption-sm: 500;
+  --line-height-caption-sm: 12px;
+
+  --font-size-caption-sm-100: 10px;
+  --font-weight-caption-sm-100: 500;
+  --line-height-caption-sm-100: 1;
+
+  --font-size-caption-xs: 10px;
+  --font-weight-caption-xs: 400;
+  --line-height-caption-xs: 1;
 }

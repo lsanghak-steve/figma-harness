@@ -3,27 +3,27 @@
 // macOS: osascript, Windows: PowerShell, Linux: notify-send
 // Node.js 기반이라 OS 자동 감지
 
-import { execSync } from "child_process";
-import { platform } from "os";
+import { execSync } from 'child_process';
+import { platform } from 'os';
 
 const os = platform();
 
 try {
-  if (os === "darwin") {
+  if (os === 'darwin') {
     // macOS
     execSync(
       `osascript -e 'display notification "Claude Code 입력 대기 중" with title "Claude Code"'`
     );
-  } else if (os === "win32") {
+  } else if (os === 'win32') {
     // Windows
     execSync(
       `powershell -Command "[System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms'); [System.Windows.Forms.MessageBox]::Show('Claude Code 입력 대기 중','Claude Code','OK','Information')" `,
-      { stdio: "ignore" }
+      { stdio: 'ignore' }
     );
   } else {
     // Linux
     execSync(`notify-send "Claude Code" "Claude Code 입력 대기 중"`, {
-      stdio: "ignore",
+      stdio: 'ignore',
     });
   }
 } catch {

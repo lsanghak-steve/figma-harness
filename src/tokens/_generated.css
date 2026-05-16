@@ -1,0 +1,42 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --spacing-xs: 4rem;
+  --spacing-sm: 8rem;
+  --spacing-md: 12rem;
+  --spacing-lg: 16rem;
+  --spacing-xl: 24rem;
+  --spacing-2xl: 32rem;
+  --radius-sm: 4rem;
+  --radius-md: 8rem;
+  --radius-lg: 12rem;
+  --radius-full: 9999rem;
+  --font-family-sans: 'Inter', sans-serif;
+  --font-size-sm: 14rem;
+  --font-size-base: 16rem;
+  --font-size-lg: 18rem;
+  --font-size-xl: 20rem;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --color-primitive-white: #ffffff;
+  --color-primitive-black: #000000;
+  --color-primitive-gray-50: #f9fafb;
+  --color-primitive-gray-200: #e5e7eb;
+  --color-primitive-gray-500: #6b7280;
+  --color-primitive-gray-900: #111827;
+  --color-primitive-blue-500: #3b82f6;
+  --color-primitive-green-500: #22c55e;
+  --color-primitive-red-500: #ef4444;
+  --color-bg-primary: var(--color-primitive-white);
+  --color-bg-secondary: var(--color-primitive-gray-50);
+  --color-text-primary: var(--color-primitive-gray-900);
+  --color-text-secondary: var(--color-primitive-gray-500);
+  --color-border-default: var(--color-primitive-gray-200);
+  --color-brand-primary: var(--color-primitive-blue-500);
+  --color-status-success: var(--color-primitive-green-500);
+  --color-status-error: var(--color-primitive-red-500);
+}
