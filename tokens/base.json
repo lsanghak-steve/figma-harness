@@ -1,0 +1,33 @@
+{
+  "spacing": {
+    "xs": { "value": "4", "type": "dimension" },
+    "sm": { "value": "8", "type": "dimension" },
+    "md": { "value": "12", "type": "dimension" },
+    "lg": { "value": "16", "type": "dimension" },
+    "xl": { "value": "24", "type": "dimension" },
+    "2xl": { "value": "32", "type": "dimension" }
+  },
+  "radius": {
+    "sm": { "value": "4", "type": "dimension" },
+    "md": { "value": "8", "type": "dimension" },
+    "lg": { "value": "12", "type": "dimension" },
+    "full": { "value": "9999", "type": "dimension" }
+  },
+  "font": {
+    "family": {
+      "sans": { "value": "'Inter', sans-serif", "type": "fontFamily" }
+    },
+    "size": {
+      "sm": { "value": "14", "type": "dimension" },
+      "base": { "value": "16", "type": "dimension" },
+      "lg": { "value": "18", "type": "dimension" },
+      "xl": { "value": "20", "type": "dimension" }
+    },
+    "weight": {
+      "normal": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" },
+      "bold": { "value": "700", "type": "fontWeight" }
+    }
+  }
+}
